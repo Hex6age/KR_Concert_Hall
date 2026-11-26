@@ -1,0 +1,119 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Илья",
+      "surname": "Чертков",
+      "email": "ilya@mail.ru",
+      "password": "123"
+    }
+  ],
+  "events": [
+    {
+      "id": "e1",
+      "title": "Рок-фестиваль «Северный ветер»",
+      "artist": "Группа Кино, Сплин, Кипелов",
+      "description": "Грандиозное событие осени! Лучшие рок-группы на одной сцене.",
+      "image": "/images/rock.jpeg",
+      "sessions": [
+        {
+          "id": "s1",
+          "date": "2026-12-15",
+          "time": "19:00",
+          "price": 2500,
+          "hall": "Главная сцена"
+        },
+        {
+          "id": "s2",
+          "date": "2026-12-16",
+          "time": "18:00",
+          "price": 2500,
+          "hall": "Главная сцена"
+        }
+      ]
+    },
+    {
+      "id": "e2",
+      "title": "Симфонический вечер",
+      "artist": "Архангельский филармонический оркестр",
+      "description": "Произведения Чайковского и Рахманинова в исполнении лучших музыкантов.",
+      "image": "/images/symphonic.jpg",
+      "sessions": [
+        {
+          "id": "s3",
+          "date": "2026-12-20",
+          "time": "18:30",
+          "price": 1500,
+          "hall": "Зал органной музыки"
+        }
+      ]
+    },
+    {
+      "id": "e3",
+      "title": "Stand-up концерт",
+      "artist": "Евгений Чебатков",
+      "description": "Новая программа от звезды Comedy Club. Смех гарантирован!",
+      "image": "/images/standup.jpg",
+      "sessions": []
+    },
+    {
+      "id": "e4",
+      "title": "Джазовый вечер",
+      "artist": "Trio Jazz & Guests",
+      "description": "Атмосферный джаз, импровизация и отличное настроение.",
+      "image": "/images/jazz.jpg",
+      "sessions": [
+        {
+          "id": "s4",
+          "date": "2027-01-10",
+          "time": "19:00",
+          "price": 1800,
+          "hall": "Главная сцена"
+        }
+      ]
+    },
+    {
+      "id": "e5",
+      "title": "Электронная музыка: RAVE 90s",
+      "artist": "DJ Smash, DJ Groove",
+      "description": "Возвращаемся в 90-е! Легендарные хиты и современный саунд.",
+      "image": "/images/dj.jpg",
+      "sessions": [
+        {
+          "id": "s5",
+          "date": "2027-01-20",
+          "time": "22:00",
+          "price": 3000,
+          "hall": "Танцпол"
+        }
+      ]
+    },
+    {
+      "id": "e6",
+      "title": "Бардовская песня",
+      "artist": "Олег Митяев",
+      "description": "Тёплый вечер с гитарой и душевными песнями.",
+      "image": "/images/bard.webp",
+      "sessions": [
+        {
+          "id": "s6",
+          "date": "2027-02-05",
+          "time": "18:00",
+          "price": 1200,
+          "hall": "Малый зал"
+        }
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1795650951507",
+      "userId": "u1",
+      "eventId": "e1",
+      "sessionId": "s1",
+      "seats": 2,
+      "status": "cancelled",
+      "createdAt": "26.11.2026"
+    }
+  ]
+}
